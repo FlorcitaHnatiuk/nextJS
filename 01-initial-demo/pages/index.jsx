@@ -9,9 +9,9 @@ export default function Homepage() {
     <>
       <Head>
         <title>englishIT</title>
-        <meta name="home page" content="home page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" name="home page" content="home page" />
+        <meta property="og:title" name="viewport" content="width=device-width, initial-scale=1" />
+        <link property="og:title" rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
