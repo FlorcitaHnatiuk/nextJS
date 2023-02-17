@@ -4,19 +4,19 @@ import styles from '@/styles/Home.module.css'
 import { Navbar } from '../components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Contactpage() {
+export default function Pricingpage() {
     return (
         <>
             <Head>
                 <title>englishIT</title>
-                <meta name="description" content="Contact" />
+                <meta name="pricing page" content="pricing page" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Navbar/>
+            <Navbar />
             <main className={styles.main}>
                 <div className={styles.description}>
-                <h1 className={styles.title}>Contact us</h1>                
+                    <h1 className={styles.title}>Pricing</h1>
                 </div>
             </main>
         </>
