@@ -4,8 +4,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 
 const style = {
-    color: 'red',
-    textDecoration: 'underline'
+    color: '#0885ff33',
 }
 
 export const ActiveLink = ({ text, href }) => {
