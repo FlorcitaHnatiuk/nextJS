@@ -16,7 +16,7 @@ export default function Aboutpage() {
             <Navbar/>
             <main className={styles.main}>
                 <div className={styles.description}>
-                <h1 className={styles.title}>Who are we?</h1>                
+                <h1 className={styles.title}>Contact us</h1>                
                 </div>
             </main>
         </>

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
+import { Navbar } from '../components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Homepage() {
@@ -9,14 +9,14 @@ export default function Homepage() {
     <>
       <Head>
         <title>englishIT</title>
-        <meta property="og:title" name="home page" content="home page" />
-        <meta property="og:title" name="viewport" content="width=device-width, initial-scale=1" />
-        <link property="og:title" rel="icon" href="/favicon.ico" />
+        <meta name="home page" content="home page" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar/>
       <main className={styles.main}>
         <div className={styles.description}>
           <h1 className={styles.title}>English IT</h1>
-          <Link href='/about'>About</Link>
         </div>
       </main>
     </>
