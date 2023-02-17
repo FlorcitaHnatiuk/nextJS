@@ -6,7 +6,7 @@ export const MainLayout = ({ children }) => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Home - englishIT</title>
+                <title>englishIT</title>
                 <meta name="description" content="Home Page" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
