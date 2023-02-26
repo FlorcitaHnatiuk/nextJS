@@ -9,7 +9,7 @@ interface Props {
 
 export const Layout: FC<Props> = ({ children, title }) => {
     return (
-        <>
+        <div>
             <Head>
                 <title>{title || 'PokemonApp'}</title>
                 <meta name="author" content="Florencia Hnatiuk" />
@@ -22,6 +22,6 @@ export const Layout: FC<Props> = ({ children, title }) => {
             }}>
                 {children}
             </main>
-        </>
+        </div>
     )
 };

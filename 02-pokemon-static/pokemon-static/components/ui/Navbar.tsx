@@ -16,12 +16,6 @@ export const Navbar = () => {
             padding: '0x 50px',
             backgroundColor: theme?.colors.gray900.value
         }}>
-{/*             <Image 
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
-                alt="icono de la app"
-                width={70}
-                height={70}
-            /> */}
 
             <NextLink href="/" passHref>
                 <Link>
