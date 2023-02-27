@@ -14,21 +14,27 @@ export const Navbar = () => {
             alignItems: 'center',
             justifyContent: 'start',
             padding: '0x 50px',
-            backgroundColor: theme?.colors.gray900.value
+            backgroundColor: theme?.colors.gray100.value
         }}>
+            <Image 
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+                alt="Logo pokemon"
+                width={70}
+                height={70}
+            />
 
             <NextLink href="/" passHref>
-                <Link>
-                    <Text color='black' h2>P</Text>
-                    <Text color='black' h3>okémon</Text>
+                <Link >
+                    <Text color='white' h2>P</Text>
+                    <Text color='white' h3>okémon</Text>
                 </Link>
             </NextLink>
 
             <Spacer css={{ flex: 1 }}/>
             
             <NextLink href="/favorites" passHref>
-                <Link css={{ marginRight: '10px' }}>
-                    <Text color='black'>Favoritos</Text>
+                <Link css={{ marginRight: '20px' }}>
+                    <Text color='white'>Favoritos</Text>
                 </Link>
             </NextLink>
 
